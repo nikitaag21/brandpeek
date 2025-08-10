@@ -1,50 +1,87 @@
-# Welcome to your Expo app 👋
+# **BrandPeek**
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## **📌 Introduction**
+**BrandPeek** is a small but polished **React Native** mobile application built with **Expo**. It simulates a "Brand Discovery" experience, allowing users to browse a list of top brands and view detailed information for each one.
 
-## Get started
+This project was developed to demonstrate:
+- Clean **React Native** folder structuring and code management
+- Creative use of **gradient styling**
+- **Mock API** integration to simulate backend calls
+- Deployment via **Expo Go**
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## **✨ Features**
+- **Home Screen** – Displays a list of top brands with gradient background  
+- **Brand Detail Screen** – Shows brand details with a “Follow” button  
+- **Custom Navigation** – Simple, file-based navigation  
+- **Minimalist UI** – Clean, modern interface  
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## **🛠 Technical Stack**
+- **React Native & Expo**
+- **Expo Router** – File-based navigation  
+- **expo-linear-gradient** – Gradient backgrounds  
+- **Mock API Data** – Simulated API responses
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## **🖥 Backend Used**
+- Mock API using **hardcoded data**  
+- No live server — fetch calls mimic network requests for demonstration purposes  
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## **📂 Project Structure**
+app/         → Screens and navigation files
+assets/      → Fonts, images, icons
+components/  → Reusable UI components
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+## **🚀 Live Project**
+### **Expo Go Link**
+[📱 Open in Expo Go](exp://192.168.1.10:8081)  
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### **QR Code**
+Scan this QR code in the **Expo Go** app:  
+![QR Code](./assets/qr-code.png)
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## **⚡ Setup Instructions**
+### **Prerequisites**
+- **Node.js** installed  
+- **Expo Go** app on your mobile device (Android / iOS)  
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+BrandPeek – Setup Instructions
 
-Join our community of developers creating universal apps.
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/your-repo-name.git
+cd brandpeek-app
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+2️⃣ Install Dependencies
+npm install
+npx expo install expo-linear-gradient
+
+3️⃣ Run the App
+npx expo start
+
+4️⃣ Open on Your Device
+   •	📱 Scan the QR Code in the Expo Go app
+   •	Or press:
+   •	a → Open in Android emulator
+   •	i → Open in iOS simulator
+
+ 📝 Note
+
+This project uses mock data and does not connect to a live backend.
+The “Follow” button is for visual demonstration only and has no backend functionality.
+
+Live preview
+exp://192.168.1.10:8081
+
+<img width="560" height="496" alt="image" src="https://github.com/user-attachments/assets/93ef48e3-48bd-4191-979d-5c7c5527838d" />
