@@ -84,4 +84,6 @@ The “Follow” button is for visual demonstration only and has no backend func
 Live preview
 exp://192.168.1.10:8081
 
-<img width="560" height="496" alt="image" src="https://github.com/user-attachments/assets/93ef48e3-48bd-4191-979d-5c7c5527838d" />
+<img width="498" height="478" alt="image" src="https://github.com/user-attachments/assets/a2428928-9054-49f3-b74d-8f85c2091247" />
+
+
